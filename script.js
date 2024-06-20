@@ -1,4 +1,3 @@
-document.addEventListener("DOMContentLoaded", () => {
     //let words = ["debil", "kokot", "pica", "curak", "kripl", "kunda", "krava", "picus", "pitomec", "babis", "hovno", "kurva", "prdel"];
     let selectedWord = "";
     let Guessing = [];
@@ -92,4 +91,3 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     startGameButton.addEventListener("click", startGame);
-});
